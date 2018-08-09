@@ -3,13 +3,13 @@ katz_deli = []
 
 
 def line(katz_deli)
-  msg = "The line is currently: "
+  msg = "The line is currently:"
   if katz_deli.size == 0 
     puts "The line is currently empty."
   else
     katz_deli.each_with_index {|name, index|
     positon = index + 1
-      msg << "#{positon}. #{name} "
+      msg << " #{positon}. #{name}"
     }
     puts msg
   end
