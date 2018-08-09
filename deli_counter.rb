@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = []
+katz_deli = [1, 2, 3]
 def line
   msg = "The line is currently: "
   if line.size == 0
@@ -12,3 +12,4 @@ def line
     return msg
   end
 end
+puts line
