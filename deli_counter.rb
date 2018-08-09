@@ -3,8 +3,8 @@ katz_deli = []
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  position = katz_deli.size + 1
-  puts "Welcome, #{name}. You are number #{position} in line."
+  # position = katz_deli.size + 1
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   
 end
 
