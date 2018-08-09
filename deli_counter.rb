@@ -9,7 +9,7 @@ def line(katz_deli)
   else
     katz_deli.each_with_index {|name, index|
     positon = index + 1
-      msg << "#{positon}. #{name}"
+      msg << "#{positon}. #{name} "
     }
     puts msg
   end
